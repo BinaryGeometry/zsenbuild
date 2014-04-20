@@ -4,7 +4,7 @@
 #######
 
 NAMESPACE=$1
-MODULENAME=$1
+MODULENAME=$2
 
 # pass necessary outside variables 
 ## and dont burn the soup
