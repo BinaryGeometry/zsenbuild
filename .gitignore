@@ -53,3 +53,9 @@
 !permissions_zsen_{tallbasket}.sh
 !humans.txt
 !.gitignore
+!billablearticle.md
+
+!build.sh
+#!zsenbuild_build.sh
+!zsenbuild_manifest.sh
+!zsenbuild/
