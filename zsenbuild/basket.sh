@@ -3,9 +3,13 @@
 # Builds a basket 1@
 #######
 
-FIRSTWORD=$1
+NAMESPACE=$1
+MODULENAME=$1
 
-function talk()
+# pass necessary outside variables 
+## and dont burn the soup
+### see, it is magic really
+function compile()
 {
-	echo "this is a $FIRSTWORD"
-}
+	echo "$NAMESPACE $MODULENAME"
+}  

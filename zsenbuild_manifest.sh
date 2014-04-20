@@ -3,5 +3,16 @@
 # Sets up manifest 
 #######
 
-source zsenbuild/basket.sh firstword
+NAMESPACE=zsen
+MODULENAME=tallbasket
+
+## First word
+source zsenbuild/firstword.sh firstword
 talk
+
+## Build Basket
+source zsenbuild/basket.sh $NAMESPACE $MODULENAME
+compile
+
+
+
